@@ -1,0 +1,13 @@
+{
+  "name": "install-analytics-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "./timer.sh start",
+    "postinstall": "./timer.sh end"
+  },
+  "keywords": [],
+  "author": "Kyle Welch <kwelch0626@gmail.com> (https://kwelch.dev/)",
+  "license": "MIT"
+}
